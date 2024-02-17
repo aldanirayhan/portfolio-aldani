@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Postfolio Tailwind CSS</title>
-    <link href="dist/output.css" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Semua 💀, Saya <span class="block font-bold text-dark text-4xl mt-1 text lg:text-5xl">Rayhan Aldani</span></h1>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">Mahasiswa</h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">Bukan Saya Yang Paling Cerdas Di Dunia.</p>
+
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:opacity-70 transition duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="src/img/aldani.png" alt="Rayhan Aldani" class="max-w-full mx-auto" />
+                        <span class="absolute bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#f97316" d="M52.9,-18.7C61.7,10,57.3,41.4,38.7,55.4C20.1,69.4,-12.6,65.9,-33.7,49.8C-54.8,33.7,-64.2,4.9,-56.6,-22C-49,-49,-24.5,-74.1,-1.2,-73.7C22,-73.3,44.1,-47.4,52.9,-18.7Z" transform="translate(100 100)" />
+                              </svg>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
 </body>
 </html>
